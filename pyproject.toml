@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "qdrant-search"
+version = "0.1.1"
+description = "Compendium of jupyter notebooks using qdrant for vector search applications"
+authors = ["Artur Das <me@artur.wtf>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+jupyterlab = "^4.1.2"
+faker = "^23.3.0"
+qdrant-client = "^1.7.3"
+transformers = "^4.38.2"
+datasets = "^2.18.0"
+torch = "^2.2.1"
+sentence-transformers = "^2.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
